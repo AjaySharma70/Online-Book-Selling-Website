@@ -1,0 +1,103 @@
+/* Change Brand Font */
+
+
+
+  
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+.bg-new { 
+ background-color: rgb(221, 125, 15);
+}
+.back-color{
+  background-color: rgb(1, 7, 14) ;
+  color: white;
+}
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: rgb(25, 120, 230) ;
+  border:none;
+}
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover{
+  color:rgb(46, 16, 212) ;
+}
+
+
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.st {
+  font-size: 24px;
+}
+
+/* Change Footer Social Icon Color */
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(5, 1, 15) ;
+}
+.was-validated{
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 50px auto;
+  margin-top: 130px;
+  text-align: left;
+  padding: 20px; 
+  border: 1px solid #bbbbbb; 
+  border-radius: 5px;
+}
+.msg {
+  margin: 30px auto; 
+  padding: 10px; 
+  border-radius: 5px; 
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  width: 50%;
+  text-align: center;
+}
+.button1{
+  background-color:  rgb(12, 116, 235) ;
+  border: brown;
+  color: white;
+}
+.button1:hover {
+  background-color:  #4185CF ;
+  border: brown;
+  color:rgb(15, 106, 209) ;
+}
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1300px;
+  }
+}
+
+
+
+

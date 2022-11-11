@@ -1,0 +1,170 @@
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1300px;
+    }
+}
+body {
+    font-family: 'Karla';
+    color:black;
+    }
+.navbar-default {
+    background-color:#D0D3D4 ;
+    border-color: #E7E7E7;
+}
+.carousel{
+  padding-top:  30px;
+  
+}
+.carousel-item{
+  border: 1px solid #bbbbbb; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.one{
+  padding-top:3px;
+  height:47px;
+  width:100%;
+}
+.two{
+    width:49%;
+    float:left;
+}
+.three{
+  
+    width:49%;
+    float:right;
+}
+
+@media (max-width:767px) {
+  .navbar-header {
+    display:flex;
+  }
+}
+
+
+@media (max-width:767px) {
+  .navbar-toggle {
+    order:0;
+    margin-left:15px;
+    margin-right:0;
+  }
+}
+
+.dropdown-menu{
+  border: 1px solid #bbbbbb; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height:35px;
+}
+.nav-item{
+  color:white;
+}
+.sign_btn {
+  color:green;
+  background-color:#D5DBDB  ;
+  text-decoration: none;
+  padding:2px;
+  border-radius: 4px;
+}
+.sign_btn:hover{
+  background-color:green;
+  color:white;
+  text-decoration: none;
+  border: green; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login_btn {
+  color:green;
+  background-color:#D5DBDB  ;
+  text-decoration: none;
+  padding:2px;
+  border-radius: 4px;
+}
+.login_btn:hover{
+  background-color:green;
+  color:white;
+  text-decoration: none;
+  border: green; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myFooter {
+    background-color: #3a3f46;
+    color: white;
+}
+#myFooter .row {
+    margin-bottom: 60px;
+}
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+#myFooter h5 {
+    font-family: 'Karla';
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #33373e;
+    text-align: center;
+}
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+#myFooter p{
+    font-family: Verdana, Geneva, sans-serif;
+}
+#myFooter h5{
+    font-family: Verdana, Geneva, sans-serif;
+}
+#myFooter  li{
+    font-family: Verdana, Geneva, sans-serif;
+}
+
